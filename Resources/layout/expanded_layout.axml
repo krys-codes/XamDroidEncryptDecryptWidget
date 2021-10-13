@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    android:id="@+id/root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:contentDescription="crypto_img"
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon"
+        android:padding="2dp"
+        />
+    <LinearLayout
+        android:id="@+id/flyout"
+        android:background="@drawable/rounded_corners"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:text="ENCRYPT"
+            android:id="@+id/encryptMessage"
+            android:background="@null"
+            android:layout_width="160.0dp"
+            android:layout_height="60.0dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:cursorVisible="false"
+            />
+        <Button
+            android:text="DECRYPT"
+            android:id="@+id/decryptMessage"
+
+            android:background="@null"
+            android:layout_width="160.0dp"
+            android:layout_height="60.0dp"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="16sp" />
+        <ImageView
+            android:contentDescription="exit_img"
+            android:layout_width="30.0dp"
+            android:layout_height="30.0dp"
+            android:src="@drawable/close"
+            android:id="@+id/close"
+        
+            android:padding="5dp" />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
