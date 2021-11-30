@@ -13,3 +13,5 @@
 2. Tap Decrypt (app gets string from the clipboard too and show msg in Toast) 
 
 **Encrypted message will appear**
+
+<img width="388" alt="widget" src="https://user-images.githubusercontent.com/20336369/144009942-f55dc880-357d-4969-836c-2b62382b9c35.PNG">
